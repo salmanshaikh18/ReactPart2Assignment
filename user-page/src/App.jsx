@@ -16,18 +16,18 @@ function App() {
 
         <img src={logo} alt="logo" />
 
-        <input hidden={login} type="text" placeholder='Mobile Number or Email' />
+        <input hidden={login} type="text" placeholder='Mobile Number Or Email' />
 
         <input hidden={login} type="text" placeholder='Full Name' />
 
-        <input type="email" placeholder='Phone Number, Username, or Email' />
+        <input type="email" placeholder='Phone Number, Username, Or Email' />
 
         <input type="text" placeholder='Password'/>
 
         <button>{login ? "Sign In" : "Sign Up" }</button>
       
       <div id="footer">
-        {login ? "Don't have an accound?" : "have an accound?"} <span onClick={loginSwitch}>{login ? "Sign Up": "Log In"}</span>
+        {login ? "Don't have an accound?" : "have an account?"} <span onClick={loginSwitch}>{login ? "Sign Up": "Log In"}</span>
       </div>
       </div>
     </div>
