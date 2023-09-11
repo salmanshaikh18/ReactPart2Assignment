@@ -22,7 +22,7 @@ function App() {
 
         <input type="email" placeholder='Phone Number, Username, Or Email' />
 
-        <input type="text" placeholder='Password'/>
+        <input type="password" placeholder='Password'/>
 
         <button>{login ? "Sign In" : "Sign Up" }</button>
       
